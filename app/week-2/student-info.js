@@ -1,12 +1,19 @@
 import Link from "next/link";
 
 export default function StudentInfo() {
-  return (
+    return (
     <section>
-      <p>Name: Dominique Anne Lee</p>
-      <p>
-        GitHub: <Link href="https://github.com/monic421/cprg306-assignments" target="_blank"><u>monic421/cprg306-assignments</u></Link>
-      </p>
+        <p>Name: Dominique Anne Lee</p>
+        <p>
+            GitHub:{" "}
+            <Link
+            href="https://github.com/monic421/cprg306-assignments"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline">
+            monic421/cprg306-assignments
+            </Link>
+        </p>
     </section>
   );
 }
