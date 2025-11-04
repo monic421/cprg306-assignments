@@ -56,4 +56,4 @@ export default function MealIdeas({ ingredient }) {
             </ul>
         </div>
     );
-}
+} 

@@ -14,4 +14,4 @@ export default function Item({ name, quantity, category, onSelect }) {
             </p>
         </li>
     );
-}
+} 

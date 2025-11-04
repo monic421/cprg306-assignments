@@ -50,4 +50,4 @@ export default function ItemList({ items, onItemSelect }) {
             </ul>
         </section>
     );
-}
+} 
