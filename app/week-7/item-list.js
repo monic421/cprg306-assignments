@@ -37,12 +37,12 @@ export default function ItemList({ items }) {
 
             {/* Item List */}
             <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                {sorted.map((it) => (
+                {sorted.map((item) => (
                     <Item
-                        key={it.name}
-                        name={it.name}
-                        quantity={it.quantity}
-                        category={it.category}
+                        key={item.id}
+                        name={item.name}
+                        quantity={item.quantity}
+                        category={item.category}
                         className="dark:bg-purple-400/20"
                     />
                 ))}
